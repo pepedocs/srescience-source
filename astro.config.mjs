@@ -1,5 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 
-// https://astro.build/config
-export default defineConfig({});
+export default defineConfig({
+  site: 'https://srescience.com',  // Replace with your GitHub Pages URL
+  base: '/',                 // If deployed at username.github.io/repo/
+});
